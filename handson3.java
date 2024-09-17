@@ -4,10 +4,10 @@ public class handson3 {
         System.out.println("Menggunakan for loop:");
         for (int i = 1; i <= 20; i++) {
             if (i % 3 == 0) {
-                continue; // Lewati angka yang habis dibagi 3
+                continue;
             }
             if (i > 15) {
-                break; // Berhenti jika angka lebih dari 15
+                break;
             }
             System.out.println(i);
         }
@@ -21,7 +21,7 @@ public class handson3 {
                 continue; // Lewati angka yang habis dibagi 3
             }
             if (i > 15) {
-                break; // Berhenti jika angka lebih dari 15
+                break; //
             }
             System.out.println(i);
             i++;
