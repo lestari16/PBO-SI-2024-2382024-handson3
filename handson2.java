@@ -13,16 +13,17 @@ public class handson2 {
         }
         //menggunakan while loop
         System.out.println("Menggunakan while loop:");
-        int i = 2;
-        while (i <= 20){
-            System.out.println(i);
-            i+=2;
+        int j = 2;
+        while (j <= 20){
+            System.out.println(j);
+            j+=2;
         }
         //menggunakan do-while loop
         System.out.println("Menggunakan do-while loop:");
-        i = 2;
+        int K = 2;
         do {
-            System.out.println(i);
-        } while(1<=20);
+            System.out.println(K);
+            K += 2;
+        } while(K <=20);
     }
 }
